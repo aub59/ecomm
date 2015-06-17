@@ -74,10 +74,10 @@ function &DB($params = '', $active_record_override = NULL)
 
 		$params = array(
 							'dbdriver'	=> $dns['scheme'],
-							'hostname'	=> (isset($dns['host'])) ? rawurldecode($dns['host']) : '',
-							'username'	=> (isset($dns['user'])) ? rawurldecode($dns['user']) : '',
-							'password'	=> (isset($dns['pass'])) ? rawurldecode($dns['pass']) : '',
-							'database'	=> (isset($dns['path'])) ? rawurldecode(substr($dns['path'], 1)) : ''
+							'hostname'	=> (isset($dns['127.10.230.2:3306'])) ? rawurldecode($dns['127.10.230.2:3306']) : '',
+							'username'	=> (isset($dns['admingubUEh8'])) ? rawurldecode($dns['admingubUEh8']) : '',
+							'password'	=> (isset($dns['YV7DzyI59Gyc'])) ? rawurldecode($dns['YV7DzyI59Gyc']) : '',
+							'database'	=> (isset($dns['shop'])) ? rawurldecode(substr($dns['shop'], 1)) : ''
 						);
 
 		// were additional config items set?
