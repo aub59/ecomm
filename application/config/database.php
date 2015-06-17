@@ -1,4 +1,10 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php  
+ini_set('xdebug.max_nesting_level', 200);
+
+
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
