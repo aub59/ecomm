@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://shop-aub59.rhcloud.com';
+/* $config['base_url']	= 'http://shop-aub59.rhcloud.com/'; /*
 
 /*
 |--------------------------------------------------------------------------
