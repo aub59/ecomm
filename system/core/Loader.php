@@ -340,6 +340,17 @@ class CI_Loader {
 		
 	}
 
+
+
+
+
+
+
+
+
+
+
+
 	public function dbutil()
 	{
 		if ( ! class_exists('CI_DB'))
