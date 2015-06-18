@@ -333,17 +333,11 @@ class CI_Loader {
 
 		require_once(BASEPATH.'database/DB.php');
 
-		if ($return === TRUE)
-		{
+		
 			return DB($params, $active_record);
-		}
+		
 
-		// Initialize the db variable.  Needed to prevent
-		// reference errors with some configurations
-		$CI->db = 'shop';
-
-		// Load the DB class
-		$CI->db =& DB($params, $active_record);
+		
 	}
 
 	// --------------------------------------------------------------------
