@@ -334,7 +334,16 @@ class CI_Loader {
 		require_once(BASEPATH.'database/DB.php');
 
 		
+		if ($return === TRUE)
+		{
 			return DB($params, $active_record);
+		}
+
+		
+		$CI->db = '';
+
+		// Load the DB class
+		$CI->db =& DB($params, $active_record)
 		
 
 		
