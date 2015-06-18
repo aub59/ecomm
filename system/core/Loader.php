@@ -340,13 +340,6 @@ class CI_Loader {
 		
 	}
 
-	// --------------------------------------------------------------------
-
-	/**
-	 * Load the Utilities Class
-	 *
-	 * @return	string
-	 */
 	public function dbutil()
 	{
 		if ( ! class_exists('CI_DB'))
